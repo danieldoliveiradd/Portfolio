@@ -1,0 +1,141 @@
+$primary-color: #333;
+$secondary-color: #fff;
+$tertiary-color: #0bc8ff;
+$quaternary-color: #1a133c;
+$font-family: Arial, sans-serif;
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  background-image: linear-gradient(#000000fa, #000000fa),
+    url("assets/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  header {
+    padding-top: 10px;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 5vh;
+      font-family: $font-family;
+      color: $secondary-color;
+      padding: 0 60px;
+
+      h1 {
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 15px;
+
+        span {
+          color: $tertiary-color;
+          font-weight: 400;
+          font-size: 14.2px;
+        }
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          font-weight: 300;
+          font-size: 16px;
+
+          #logo-title {
+            color: $tertiary-color;
+            font-weight: 500;
+          }
+
+          &:not(:last-child) {
+            margin-right: 40px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+
+      li {
+        list-style: none;
+
+        #button {
+          color: $quaternary-color;
+          font-weight: 600;
+          font-size: 15px;
+          text-decoration: none;
+          background-color: $tertiary-color;
+          padding: 5px 15px;
+          border-radius: 100px;
+        }
+      }
+    }
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    section {
+      .content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        h1 {
+          font-size: 58px;
+          font-weight: 600;
+        }
+        #skills {
+          font-size: 19px;
+          font-weight: 400;
+          margin: 10px;
+        }
+        p {
+          max-width: 600px;
+          margin: 5px;
+          font-weight: 300;
+          text-align: center;
+        }
+        .buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 10px;
+          width: 60%;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: 500;
+            img {
+              margin-left: 10px;
+            }
+          }
+          #button-git {
+            text-decoration: none;
+            background-color: $tertiary-color;
+            color: $quaternary-color;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 100px;
+          }
+        }
+      }
+    }
+  }
+}
