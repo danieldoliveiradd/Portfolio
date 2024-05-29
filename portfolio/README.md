@@ -1,8 +1,24 @@
-# React + Vite
+# Portfólio de Daniel Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando React e Vite, oferecendo uma configuração mínima para iniciar o desenvolvimento com React de forma rápida e eficiente. Abaixo, você encontrará detalhes sobre o projeto e as tecnologias utilizadas.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Vite**: Ferramenta de build que proporciona um ambiente de desenvolvimento rápido e eficiente.
+- **SCSS**: Pré-processador CSS que adiciona funcionalidades como variáveis, aninhamento e mixins ao CSS.
+- **ESLint**: Ferramenta de análise estática de código para identificar e corrigir problemas em JavaScript.
+- **Babel**: Transpilador JavaScript que permite utilizar as últimas funcionalidades da linguagem.
+- **SWC**: Compilador super rápido para JavaScript e TypeScript.
+
+## Funcionalidades
+
+- **Header Responsivo**: Um cabeçalho responsivo com navegação e informações do desenvolvedor.
+- **Integração de Ícones**: Ícones personalizados para melhorar a aparência e usabilidade do site.
+- **Estilização com SCSS**: Utilização de SCSS para uma melhor organização e manutenção dos estilos.
+
+<img src ="https://i.ibb.co/d6LMz5K/readme.jpg" alt="Meu Portfólio" />
+
+<center>
+<a href="#">Clique aqui para acessar o portfólio</a>
+</center>
