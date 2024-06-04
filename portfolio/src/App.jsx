@@ -31,7 +31,7 @@ function App() {
               </li>
             </ul>
             <li>
-              <a href="#" id="button">
+              <a href="https://api.whatsapp.com/send/?phone=61992740860&text=Ol%C3%A1%20tudo%20bem?%20Eu%20vim%20pelo%20seu%20portf%C3%B3lio.%20Me%20interessei%20e%20decidi%20entrar%20em%20contato&type=phone_number&app_absent=0" target="_blank" id="button">
                 Contato
               </a>
             </li>
@@ -67,6 +67,9 @@ function App() {
             </div>
           </section>
         </main>
+        <section>
+          eae
+        </section>
       </div>
     </>
   );
