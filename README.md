@@ -19,6 +19,6 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando React e Vi
 
 <img src ="https://i.ibb.co/d6LMz5K/readme.jpg" alt="Meu Portfólio" />
 
-<center>
-<a href="#">Clique aqui para acessar o portfólio</a>
-</center>
+<div align="center">
+    <a href="#">Clique aqui para acessar o portfólio</a>
+</div>
