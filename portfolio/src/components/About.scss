@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.959)),
+      url("../assets/img/bg-about.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}

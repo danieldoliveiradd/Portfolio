@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  margin-bottom: -80px;
+
+  .nav-logo-container {
+    img {
+      height: 40px;
+      width: auto;
+    }
+  }
+
+  .navbar-links-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex: 1;
+    justify-content: center; // Centraliza os links
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #0bc8ff;
+        }
+        
+        .logo-color-blue {
+        font-weight: 500;
+        color: #0bc8ff;
+      }
+    } 
+  }
+
+  .contact-button-container {
+    .button-contact {
+      background-color: #0bc8ff;
+      color: #1a133c;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      border-radius: 100px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+      
+      }
+
+      
+    }
+  }
+}
